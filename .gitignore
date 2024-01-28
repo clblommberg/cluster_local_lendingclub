@@ -1,6 +1,4 @@
-data/
 __pycache__/
-
 directorio.txt
 .ipynb_checkpoints
 datasets/
