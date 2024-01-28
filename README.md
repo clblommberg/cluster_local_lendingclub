@@ -15,25 +15,25 @@ http://0.0.0.0:50070/dfshealth.html#tab-overview					## Information nodes
 http://0.0.0.0:50075/							
 http://127.0.0.1:8889/lab/   ## notebook pyspark
 ```
-
+- Descarga los archivos de kaggle
 ```
 ├── data
 │   └── raw
 │       ├── accepted_2007_to_2018Q4.csv.gz
 │       └── rejected_2007_to_2018Q4.csv.gz
 ```
-
+- Carga los comprimisos al cluster
 ```bash
 ./upload_data.sh
 ```
 
 ### Inicio del Proyecto
 ```bash
-http://127.0.0.1:8889/lab/tree/cluster_hive/notebook/exploratory_analysis_EDA.ipynb  ### INiciamos con el EDA
+http://127.0.0.1:8889/lab ### Iniciamos con el EDA
 ```
+
+
 #### Tengo mi cerebrito ! estoy cansado jefe !
-
-
 
 #### Referencias:
 Docker. (2024). Docker.com. https://hub.docker.com/u/bde2020
