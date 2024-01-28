@@ -36,6 +36,6 @@ http://127.0.0.1:8889/lab/tree/cluster_hive/notebook/exploratory_analysis_EDA.ip
 
 
 #### Referencias:
-This project will showcase how to spin up a Hadoop cluster with Hive in order to run SQL queries on Parquet files. Images for the nodes are based on https://hub.docker.com/u/bde2020 base images.
+Docker. (2024). Docker.com. https://hub.docker.com/u/bde2020
 
-All of this makes more sense if you follow the link in the repository to the article on Medium :)
+George, N. (2018). All Lending Club loan data (Version 3) [Data set]. Kaggle. https://www.kaggle.com/wordsforthewise/lending-club

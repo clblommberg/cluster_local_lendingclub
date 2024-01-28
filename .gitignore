@@ -2,3 +2,7 @@ __pycache__/
 directorio.txt
 .ipynb_checkpoints
 datasets/
+parquet_converter.py
+imported_data
+processed_data
+raw_data
