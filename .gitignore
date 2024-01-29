@@ -6,3 +6,5 @@ parquet_converter.py
 imported_data
 processed_data
 raw_data
+notebook/.ipynb_checkpoints
+notebook/spark-warehouse/

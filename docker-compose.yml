@@ -83,14 +83,24 @@ services:
     ports:
       - "8889:8888"
       - "8000:8000"
-    #volumes:
-      #- /home/ozi/pri:/home/jovyan
+    volumes:
+      - /home/ozi/pri:/home/jovyan
       # - ./charts:/home/jovyan/work
       # - ./imported_data:/home/jovyan/work/imported_data
       # - ./processed_data:/home/jovyan/work/processed_data
       # - ./raw_data:/home/jovyan/work/raw_data
     environment:
       - PYSPARK_PYTHON=python3
+      # Configuraciones de conexión a Hive
+      - HIVE_SERVER2_HOST=hive-server
+      - HIVE_SERVER2_PORT=10000
+      - HIVE_METASTORE_HOST=hive-metastore
+      - HIVE_METASTORE_PORT=9083
+      # Configuración de JDBC para Hive
+      - HIVE_JDBC_URL=jdbc:hive2://hive-server:10000/default
+      - HIVE_JDBC_DRIVER=org.apache.hive.jdbc.HiveDriver
+      - HIVE_JDBC_USER=hive
+      - HIVE_JDBC_PASSWORD=hive
 
 volumes:
   namenode:
