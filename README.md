@@ -15,21 +15,27 @@ http://0.0.0.0:50070/dfshealth.html#tab-overview					## Information nodes
 http://0.0.0.0:50075/							
 http://127.0.0.1:8889/lab/   ## notebook pyspark
 ```
-- Descarga los archivos de kaggle
+- Descarga los archivos y ubicalos de kaggle 1Gb, según directorio muestra 
 ```
-├── data
+├── datasets
 │   └── raw
 │       ├── accepted_2007_to_2018Q4.csv.gz
 │       └── rejected_2007_to_2018Q4.csv.gz
 ```
-- Carga los comprimisos al cluster
+- Migración de archivos comprimidos al cluster
 ```bash
 ./upload_data.sh
 ```
 
-### Inicio del Proyecto
+### Desarrollo del Proyecto
+- Valida la clave de inicio de notebook en los logs del contedor
 ```bash
-http://127.0.0.1:8889/lab ### Iniciamos con el EDA
+http://127.0.0.1:8889/lab ### Inicia con EDA y termina hasta la etl y/o enpoints.
+```
+- Previo a la carga airflow valida la creación y permisos de carpetas que requiere airflow 
+```bash
+docker-compose -f docker-compose.airflow.yml up -d
+http://localhost:8080/
 ```
 
 
