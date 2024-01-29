@@ -83,8 +83,8 @@ services:
     ports:
       - "8889:8888"
       - "8000:8000"
-    volumes:
-      - /home/ozi/pri:/home/jovyan
+    # volumes:
+      #- /home/ozi/pri:/home/jovyan
       # - ./charts:/home/jovyan/work
       # - ./imported_data:/home/jovyan/work/imported_data
       # - ./processed_data:/home/jovyan/work/processed_data
