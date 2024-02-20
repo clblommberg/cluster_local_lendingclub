@@ -38,9 +38,6 @@ docker-compose -f docker-compose.airflow.yml up -d
 http://localhost:8080/
 ```
 
-
-#### Tengo mi cerebrito ! estoy cansado jefe !
-
 #### Referencias:
 Docker. (2024). Docker.com. https://hub.docker.com/u/bde2020
 
