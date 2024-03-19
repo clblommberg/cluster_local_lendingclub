@@ -1,4 +1,4 @@
-# Proyecto de cluster local con haddop, pyspark y airflow
+# Proyecto de cluster local con Hadoop, Pyspark y Airflow
 
 
 This dataset contains the full LendingClub data available from [their site](https://www.lendingclub.com). There are separate files for accepted and rejected loans. The accepted loans also include the FICO scores, which can only be downloaded when you are signed in to LendingClub and download the data (https://www.kaggle.com/datasets/wordsforthewise/lending-club).
